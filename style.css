@@ -1,4 +1,32 @@
+:root{
+  --primary-color: blue;
+  --header-text-color: white;
+  --border-color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header, footer{
+  background-color: var(--primary-color);
+  color: var(--header-text-color);
+  border: .15rem solid var(--border-color);
+  padding: 1rem 0 .5rem 0;
+  text-align: center;
+  margin: .1rem;
+}
+
+.hero-text{
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+main{
+  display: flex;
 }
