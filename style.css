@@ -34,7 +34,7 @@ header, footer{
 
 .footer{
   margin-top: auto;
-  min-height: 6rem;
+  min-height: 7rem;
 }
 
 .hero-text{
@@ -49,7 +49,7 @@ main{
 
 .left-column{
   width: 40vw;
-  min-width: 20rem;
+  min-width: 34rem;
   margin: 2rem 2rem 2rem 25vw;
 }
 
@@ -74,7 +74,7 @@ main{
 }
 
 .right-column{
-  width: 20vw;
+  width: 20rem;
   margin: 8rem 3rem 3rem 0;
 }
 
