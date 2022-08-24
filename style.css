@@ -2,6 +2,7 @@
   --primary-color: rgb(40, 5, 60, .7);
   --header-text-color: white;
   --border-color: black;
+  --footer-text-color: rgb(255, 255, 255, .6);
 }
 
 * {
@@ -37,6 +38,13 @@ header, footer{
 .footer{
   margin-top: auto;
   min-height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer p{
+  color: var(--footer-text-color);
 }
 
 .hero-text{
@@ -142,9 +150,47 @@ h4{
   .left-column{
     width: 75vw;
     min-width: 0;
+    margin-left: 2rem;
+  }
+
+  .left-nav{
+    margin-top: -3.1rem;
   }
 
   .nav{
-    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .nav li{
+    border-bottom: 0;
+    border-right: .1rem solid yellow;
+    padding-bottom: 0;
+    padding-right: .9rem;
+  }
+
+  li.last{
+    border-right: 0;
+  }
+
+  .left-column{
+    margin-top: 0;
+  }
+
+  .para-text{
+    margin-left: 1rem;
+  }
+
+  .right-column{
+    width: 75vw;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .image-and-article{
+    align-items: center;
+  }
+
+  .footer{
+    min-height: 2rem;
   }
 }
